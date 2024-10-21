@@ -1,0 +1,104 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    header .container {
+        background-color: darkgreen;
+        padding: 16px 0;
+        color: aliceblue;
+    }
+    header li a {
+        color: aliceblue;
+        text-decoration: none;
+        margin-left: 16px;
+    }
+    header .container a {
+        text-align: right;
+    }
+    header li {
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .container {
+        margin: 0 auto;
+    }
+    .container li a {
+        text-align: center;
+    }
+    .article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .article article img {
+        /* height: 180px; */
+        width: 100%;
+    }
+    .article article {
+        width: 30%;
+    }
+    section {
+        padding: 16px 0;
+    }
+    section h2, .article article {
+        margin-bottom: 16px;
+    }
+    .article article h3 {
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    .article article a {
+        background-color: blue;
+        color: white;
+        padding: 8px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 8px;
+    }
+    .article article a:hover {
+        text-decoration: underline;
+    }
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px;
+    }
+
+    .article article p, .article article a {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .article article h3 {
+        font-size: 24px;
+    }
+    section h2 {
+        font-size: 32px;
+    }
+    #DragonBall {
+        background-color: paleturquoise;
+    }
+    #DragonBall .article article a {
+        background-color: red;
+    }
+    #Naruto {
+        background-color: palegoldenrod;
+    }
+    #Naruto .article article a {
+        background-color: dimgrey;
+
+    }
+    #OnePiece {
+        background-color: lightskyblue;
+    }
+    #OnePiece .article article a {
+        background-color: darkorange;
+    }
+    #Bleach {
+        background-color: indigo;
+    }
+    #Bleach .article article a {
+        background-color: darkorange;
+    }
